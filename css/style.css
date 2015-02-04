@@ -46,22 +46,25 @@ body{
 }
 .menu ul li{
 	padding: 10px 0;
-	-webkit-transition: all 0.2s;
-	-moz-transition: all 0.2s;
-	-o-transition: all 0.2s;
-	transition: all 0.2s;
+	box-shadow: inset 0 0 0 0 transparent;
+	-webkit-transition: all ease-in 0.5s;
+	-moz-transition: all ease-in 0.5s;
+	transition: all ease-in 0.5s;
 }
 .menu ul li.active,
 .menu ul li:hover{
-	background: #ffffff;
 	border-left: 4px solid #aaaaaa;
+	box-shadow: inset -200px 0 0 0 #ffffff;
 }
 .menu ul li a{
 	display: block;
 	color: #666666;
 	font-size: 21px;
 }
-
+.menu ul li.active a,
+.menu ul li:hover a{
+	color: #ed1b2e;
+}
 /* notifications section*/
 .notifications-container{
 	position: fixed;
