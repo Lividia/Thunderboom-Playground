@@ -1,0 +1,63 @@
+h1{
+	font-size:48px;
+	color: #666666;
+}
+h2{
+	font-size: 20px;
+	margin-top: 0;
+	color: #ed1b2e;
+	font-style: italic;
+}
+p{
+	color: #666666;
+}
+body{
+	min-width: 640px;
+	overflow-x: hidden;
+	margin-bottom: 30px;
+}.col-lg-7{
+	max-width: 520px;
+}
+.nopadding {
+   padding: 0;
+   margin: 0;
+}
+.menu{
+	position: fixed;
+	top:0;
+	left:0;
+	height: 100%;
+	background: #eeeeee;
+}
+.menu{
+	width: 82px;
+}
+.logo{
+	width: 82px;
+	height: 82px;
+	margin-bottom: 50px;
+	background: url(../images/logo.jpg) no-repeat 0 0;
+}
+.menu ul{
+	list-style: none;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+.menu ul li{
+	padding: 10px 0;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.menu ul li.active,
+.menu ul li:hover{
+	background: #ffffff;
+	border-left: 4px solid #aaaaaa;
+}
+.menu ul li a{
+	display: block;
+	color: #666666;
+	font-size: 21px;
+}
