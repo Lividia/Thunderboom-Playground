@@ -27,11 +27,10 @@ body{
 	top:0;
 	left:0;
 	height: 100%;
+	width: 82px;
 	background: #eeeeee;
 }
-.menu{
-	width: 82px;
-}
+
 .logo{
 	width: 82px;
 	height: 82px;
@@ -88,6 +87,45 @@ body{
 .tip-of-the-day .content{
 	margin-top: 20px;
 }
+.read-more{
+	font-size: 16px;
+	color: #5e59be;
+}
+/* graph section*/
+.diagrams-container h2{
+	float: left;
+	margin-bottom: 25px;
+}
+.edit-btn{
+	float: right;
+}
+.diagrams-container{
+	margin-bottom: 20px;
+}
+.diagrams-container .col-xs-2{
+	width: 8.666667%;
+}
+.diagram{
+	margin-bottom: 5px;
+}
+.fa-cog{
+	font-size: 18px;
+	color: #666666;
+}
+.fa-twitter-square,
+.fa-youtube-square,
+.fa-facebook-square{
+	font-size: 48px;
+	color: #55acee;
+	margin-top: 10px;
+}
+.fa-youtube-square{
+	color: #ed1b2e;	
+}
+.fa-facebook-square{
+	color: #3b5998;
+}
+
 /* notifications section*/
 .notifications-container{
 	position: fixed;
@@ -120,4 +158,9 @@ body{
 }
 .copyright span{
 	display: block;
+}
+@media (min-width: 768px){
+	.tip-of-the-day .content{
+		margin-top: 0;
+	}
 }
