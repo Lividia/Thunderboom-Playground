@@ -65,6 +65,29 @@ body{
 .menu ul li:hover a{
 	color: #ed1b2e;
 }
+/* main section*/
+.fix-position{
+	margin-left: 16.66666667%
+}
+.breadcrumb{
+	margin-top: 35px;
+	padding:0;
+	background: transparent;
+}
+.breadcrumb a{
+	color: #c5c5c5;
+}
+.tip-of-the-day,
+.tip-of-the-day img{
+	margin-bottom: 30px;
+}
+.tip-of-the-day h2{
+	padding-bottom: 10px;
+	border-bottom: 1px solid #666666;
+}
+.tip-of-the-day .content{
+	margin-top: 20px;
+}
 /* notifications section*/
 .notifications-container{
 	position: fixed;
@@ -83,6 +106,7 @@ body{
 	font-size: 16px;
 	color: #666666;
 }
+/* copyright section */
 .copyright{
 	position: fixed;
 	left: 0;
