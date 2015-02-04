@@ -83,3 +83,17 @@ body{
 	font-size: 16px;
 	color: #666666;
 }
+.copyright{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 82px;
+	padding: 10px 0;
+	background: #aaaaaa;
+	text-align: center;
+	font-size: 10px;
+	color: #ffffff;
+}
+.copyright span{
+	display: block;
+}
