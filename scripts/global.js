@@ -12,13 +12,13 @@ $(document).ready(function() {
 
 			Main.el.menuCloseSlide.click(function (e){
 				e.preventDefault();
-				Main.el.menuOpen.animate({ left: '+=220' }, 400 );
+				Main.el.menuOpen.animate({ left: '+=220' }, 400 ).removeClass('inactive');
 				Main.el.menuClose.hide();
 			});
 
 			Main.el.menuOpenSlide.click(function (e){
 				e.preventDefault();
-				Main.el.menuOpen.animate({ left: '-=220' }, 400 );
+				Main.el.menuOpen.animate({ left: '-=220' }, 400 ).addClass('inactive');
 				Main.el.menuClose.show();
 			});
 

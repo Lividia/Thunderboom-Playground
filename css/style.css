@@ -2,7 +2,7 @@ h1{
 	font-size:48px;
 	color: #666666;
 }
-h2{
+h3{
 	font-size: 20px;
 	margin-top: 0;
 	color: #ed1b2e;
@@ -28,10 +28,7 @@ a:hover {
    margin: 0;
 }
 .logo{
-	width: 82px;
-	height: 82px;
 	margin-bottom: 50px;
-	background: url(../images/logo.jpg) no-repeat 0 0;
 }
 .menu{
 	position: fixed;
@@ -42,11 +39,9 @@ a:hover {
 	background: #eeeeee;
 }
 .menu-open{
+	width:220px;
 	left:-220px;
 	display: block;
-}
-.menu-open{
-	width:220px;
 }
 .menu-open img{
 	display: block;
@@ -69,8 +64,8 @@ a:hover {
 .menu-close ul li{
 	padding: 10px 0;
 }
-.menu-open ul li {
-	padding: 24px 0;
+.menu-open ul li a{
+	padding: 15px 0;
 }
 .menu-open i {
 	padding-left: 40px;
@@ -80,6 +75,14 @@ a:hover {
 .menu ul li:hover{
 	border-left: 4px solid #aaaaaa;
 	box-shadow: inset -85px 0 0 0 #ffffff;
+}
+.menu-open ul li.active,
+.menu-open ul li:hover{
+	margin-left: 20px;
+}
+.menu-close ul li.active,
+.menu-close ul li:hover{
+	margin-left: 5px;
 }
 .menu ul li a{
 	display: block;
@@ -98,11 +101,8 @@ a:hover {
 }
 .menu-open ul li.active,
 .menu-open ul li:hover{
-	margin-left: 20px;
-}
-.menu-close ul li.active,
-.menu-close ul li:hover{
-	margin-left: 5px;
+	border-left: 4px solid #aaaaaa;
+	box-shadow: inset -230px 0 0 0 #ffffff;
 }
 .sign-out {
 	padding-right: 38px;
@@ -132,15 +132,15 @@ a:hover {
 .breadcrumb a{
 	color: #c5c5c5;
 }
-.tip-of-the-day,
-.tip-of-the-day img{
-	margin-bottom: 30px;
+.bottom-margin,
+.bottom-margin img{
+	margin-bottom: 20px;
 }
-.tip-of-the-day h2{
+.tip-of-the-day h3{
 	padding-bottom: 10px;
 	border-bottom: 1px solid #666666;
 }
-.tip-of-the-day .content{
+.bottom-margin .content{
 	margin-top: 20px;
 }
 .read-more{
@@ -148,7 +148,7 @@ a:hover {
 	color: #5e59be;
 }
 /* graph section*/
-.diagrams-container h2{
+.diagrams-container h3{
 	float: left;
 	margin-bottom: 25px;
 }
@@ -272,11 +272,9 @@ a:hover {
 	font-size: 10px;
 	color: #ffffff;
 }
-
-.copyright.menu-open{
-	display: none;
-	width: 220px;
-	height: 100px;
+.menu-open .copyright{
+	bottom: 20px;
+	padding: 18px 0;
 	font-size: 14px;
 }
 .copyright span{
