@@ -1,0 +1,384 @@
+h1{
+	font-size:48px;
+	color: #666666;
+}
+h3{
+	font-size: 20px;
+	margin-top: 0;
+	color: #ed1b2e;
+	font-style: italic;
+}
+p{
+	color: #666666;
+}
+body{
+	min-width: 640px;
+	overflow-x: hidden;
+	margin-bottom: 30px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+a:hover {
+	text-decoration: none;
+}
+.col-lg-7{
+	max-width: 520px;
+}
+.nopadding {
+   padding: 0;
+   margin: 0;
+}
+.menu-close .logo{
+	margin-bottom: 50px;
+}
+.menu{
+	position: fixed;
+	top:0;
+	left:0;
+	height: 100%;
+	width: 82px;
+	background: #eeeeee;
+}
+.menu-open{
+	width:220px;
+	/*left:-220px;*/
+	display: block;
+}
+.menu-open .logo{
+	margin-bottom: 10px;
+}
+.menu-open .logo img{
+	display: block;
+	margin-top: 12px;
+	margin-left: 25px;
+}
+.menu ul{
+	list-style: none;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	padding-top: 30px;
+}
+.menu ul li{
+	box-shadow: inset 0 0 0 0 transparent;
+	-webkit-transition: all ease-in 0.2s;
+	-moz-transition: all ease-in 0.2s;
+	transition: all ease-in 0.2s;
+}
+.menu-close ul li{
+	padding: 10px 0;
+}
+.menu-open ul li a{
+	padding: 15px 0;
+}
+.menu-open ul li{
+	padding-left: 40px;
+	padding-right: 15px;
+}
+.menu ul li.active,
+.menu ul li:hover{
+	border-left: 4px solid #aaaaaa;
+	box-shadow: inset -85px 0 0 0 #ffffff;
+}
+.menu-open ul li.active,
+.menu-open ul li:hover{
+	margin-left: 20px;
+}
+.menu-close ul li.active,
+.menu-close ul li:hover{
+	margin-left: 5px;
+}
+.menu ul li a{
+	display: block;
+	color: #666666;
+	font-size: 21px;
+}
+.menu ul li.active i,
+.menu ul li:hover i{
+	color: #ed1b2e;
+}
+.menu-open ul{
+	text-align: left;
+}
+.menu-open ul li a i{
+	padding-right: 10px;
+}
+.slide-btn{
+	text-align: center;
+	line-height: 30px;
+	display: block;
+	font-size: 18px;
+	color: #666666;
+}
+.menu-open ul li.active,
+.menu-open ul li:hover{
+	border-left: 4px solid #aaaaaa;
+	box-shadow: inset -230px 0 0 0 #ffffff;
+}
+.menu-close .slide-btn-container{
+	position: absolute;
+	right: -18px;
+}
+.menu-open .sign-out-container{
+	position: relative;
+	margin: 0 20px;160
+	border-top: 1px solid #666666;
+	border-bottom: 1px solid #666666;
+	padding-top: 23px;
+	padding-bottom: 90px;
+}
+.menu-open .slide-btn-container{
+	position: absolute;
+	top:42px;
+	right: -33px;	
+}
+.menu-open .sign-out-btn{
+	float: left;
+	display: block;
+	margin-top: 24px;
+	margin-left: 10px;
+}
+.slide-btn-container {
+	width: 30px;
+	height: 30px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+	background: #ffffff;
+}
+.menu-open .sign-out-container img {
+	float: left;
+	display: block;
+	width: 80px;
+	height: 72px;
+	border: 1px solid #d7d7d7;
+}
+.sign-out-container {
+	padding-right: 38px;
+}
+.sign-out-btn{
+	display: block;
+	color: #aeaeae;
+}
+.sign-out{
+	text-align: center;
+	font-size: 18px;
+	padding-top: 2px;
+	padding-right: 10px;
+}
+.sign-out a{
+	display: block;
+	color: #aeaeae;
+	-webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+/* main section*/
+.fix-position{
+	margin-left: 16.66666667%
+}
+.breadcrumb{
+	margin-top: 35px;
+	padding:0;
+	background: transparent;
+}
+.breadcrumb a{
+	color: #c5c5c5;
+}
+.bottom-margin,
+.bottom-margin img{
+	margin-bottom: 20px;
+}
+.tip-of-the-day h3{
+	padding-bottom: 10px;
+	border-bottom: 1px solid #666666;
+}
+.bottom-margin .content{
+	margin-top: 20px;
+}
+.read-more{
+	font-size: 16px;
+	color: #5e59be;
+}
+/* graph section*/
+.diagrams-container h3{
+	float: left;
+	margin-bottom: 25px;
+}
+.edit-btn{
+	float: right;
+}
+.diagrams-container{
+	margin-bottom: 20px;
+}
+.diagrams-container .col-xs-2{
+	width: 8.666667%;
+	min-width: 48px;
+}
+.diagram{
+	margin-bottom: 5px;
+}
+.fa-cog{
+	font-size: 18px;
+	color: #666666;
+}
+.fa-twitter-square,
+.fa-youtube-play,
+.fa-facebook-square{
+	font-size: 48px;
+	color: #55acee;
+	margin-top: 10px;
+}
+.fa-youtube-play{
+	color: #ed1b2e;	
+}
+.fa-facebook-square{
+	color: #3b5998;
+}
+
+/* notifications section*/
+.notifications-container{
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 100%;
+	max-width: 230px;
+	height: 100%;
+	min-height:300px;
+}
+.notification-alert{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 84px;
+	height: 84px;
+	background:#eeeeee;
+	text-align: center;
+}
+.notification-alert a{
+	display: inline-block;
+	margin-top: 30px;
+	font-size: 24px;
+	color: #666666;
+}
+.notification-alert span{
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	min-width: 20px;
+	min-height: 20px;
+	background: #ed1c24;
+	font-size: 11px;
+	color: #ffffff;
+	line-height: 18px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+}
+.notification-messages {
+	position: absolute;
+	right: -230px;
+	width: 230px;
+	height: 100%;
+	padding: 140px 20px 0 20px;
+	background-color: #eeeeee;
+}
+.notification-messages .alert {
+	background: #ffffff;
+	border-radius: 0px;
+	border: 1px solid #d5d5d5;
+	position: relative;
+}
+.tip:after {
+	position: absolute;
+	top: calc( 50% - 15px);
+	left: -12px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 15px 13px 15px 0;
+	border-color: transparent #ffffff transparent transparent;
+	content: '';
+}
+.tip:before {
+	position: absolute;
+	top: calc( 50% - 15px);
+	left: -14px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 15px 14px 15px 0;
+	border-color: transparent #d5d5d5 transparent transparent;
+	content: '';
+}
+.notification-title {
+	font-weight: 700;
+}
+.alert-dismissible {
+	padding-right: 3px;
+	width: 185px;
+	min-height: 150px;
+}
+.alert-dismissible .close {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+}
+.notification-title {
+	font-size: 18px;
+}
+.notification-title i{
+	font-size: 26px;
+	padding-right: 20px;
+}
+.fa-exclamation-triangle {
+	color: #ffb20d;
+}
+.fa-thumbs-up{
+	color: #3fbf2a;
+}
+.notification-message {
+	padding-top: 10px;
+}
+.notification-messages .slide-btn{
+	position: absolute;
+	top:20px;
+	left: 10px;
+	width: 30px;
+}
+/* copyright section */
+.copyright{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	padding: 10px 0;
+	background: #aaaaaa;
+	text-align: center;
+	font-size: 10px;
+	color: #ffffff;
+}
+.menu-open .copyright{
+	bottom: 20px;
+	padding: 18px 0;
+	font-size: 14px;
+}
+.copyright span{
+	display: block;
+}
+ /*.watermark{
+ 	background: url(../images/watermark.jpg) no-repeat right top;
+ }*/
+@media (min-width: 768px){
+	.tip-of-the-day .content{
+		margin-top: 0;
+	}
+	.diagrams-container{
+		margin-top: 0;
+	}
+}
